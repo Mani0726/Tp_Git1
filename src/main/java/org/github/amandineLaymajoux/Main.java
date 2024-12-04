@@ -14,7 +14,7 @@ public class Main extends Canvas implements WindowListener {
         f.setSize(100, 100);
         f.setVisible(true);
         //commentaire
-        System.out.println("Hello, World!");
+        System.out.println("Hello, tout le monde!");
         System.out.println("On va afficher une page oki ?");
     }
 
