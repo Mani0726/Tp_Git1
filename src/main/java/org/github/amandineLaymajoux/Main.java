@@ -11,7 +11,7 @@ public class Main extends Canvas implements WindowListener {
         Frame f = new Frame();
         f.add(main);
         f.setTitle("Coucou amandine");
-        f.setSize(100, 100);
+        f.setSize(200, 150);
         f.setVisible(true);
         //commentaire
         System.out.println("Hello, tout le monde!");
