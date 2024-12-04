@@ -1,8 +1,10 @@
 package org.github.amandineLaymajoux;
 
 import java.awt.*;
+import java.awt.event.WindowEvent;
+import java.awt.event.WindowListener;
 
-public class Main extends Canvas {
+public class Main extends Canvas implements WindowListener {
     public static void main(String[] args) {
 
         Main main = new Main();
@@ -10,6 +12,7 @@ public class Main extends Canvas {
         f.add(main);
         f.setTitle("Coucou amandine");
         f.setSize(100, 100);
+        f.setVisible(true);
         //commentaire
         System.out.println("Hello, World!");
         System.out.println("On va afficher une page oki ?");
@@ -27,5 +30,40 @@ public class Main extends Canvas {
 
         // Dessin du polygone du cœur
         g.fillPolygon(xPoints, yPoints, xPoints.length);
+    }
+
+    @Override
+    public void windowOpened(WindowEvent e) {
+
+    }
+
+    @Override
+    public void windowClosing(WindowEvent e) {
+        System.exit(0);
+    }
+
+    @Override
+    public void windowClosed(WindowEvent e) {
+        System.exit(0);
+    }
+
+    @Override
+    public void windowIconified(WindowEvent e) {
+
+    }
+
+    @Override
+    public void windowDeiconified(WindowEvent e) {
+
+    }
+
+    @Override
+    public void windowActivated(WindowEvent e) {
+
+    }
+
+    @Override
+    public void windowDeactivated(WindowEvent e) {
+
     }
 }
