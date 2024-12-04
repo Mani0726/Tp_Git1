@@ -6,16 +6,12 @@ import java.awt.event.WindowListener;
 
 public class Main extends Canvas implements WindowListener {
     public static void main(String[] args) {
-
         Main main = new Main();
         Frame f = new Frame();
         f.add(main);
         f.setTitle("Coucou amandine");
-        f.setSize(100, 100);
+        f.setSize(200, 150);
         f.setVisible(true);
-        //commentaire
-        System.out.println("Hello, World!");
-        System.out.println("On va afficher une page oki ?");
     }
 
     @Override
@@ -44,7 +40,6 @@ public class Main extends Canvas implements WindowListener {
 
     @Override
     public void windowClosed(WindowEvent e) {
-        System.exit(0);
     }
 
     @Override
