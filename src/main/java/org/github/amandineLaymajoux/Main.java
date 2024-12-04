@@ -13,6 +13,7 @@ public class Main extends Canvas implements WindowListener {
         f.setTitle("Coucou amandine !!");
         f.setSize(200, 150);
         f.setVisible(true);
+        f.addWindowListener(main);
         //commentaire
         System.out.println("Hello, tout le monde!");
         System.out.println("On va afficher une page oki ?");
