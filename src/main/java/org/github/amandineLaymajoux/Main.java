@@ -9,7 +9,7 @@ public class Main extends Canvas implements WindowListener {
         Main main = new Main();
         Frame f = new Frame();
         f.add(main);
-        f.setTitle("Coucou amandine");
+        f.setTitle("Coucou amandine !!");
         f.setSize(200, 150);
         f.setVisible(true);
     }
